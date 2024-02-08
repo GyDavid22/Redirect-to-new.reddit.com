@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Redirect to new.reddit.com
-// @version      1
+// @version      2
 // @description  A userscript to restore the previous UI of Reddit by automatically redirecting to new.reddit.com
 // @author       GyDavid22
 // @match        *://www.reddit.com/*
@@ -12,9 +12,11 @@
 // @run-at document-start
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
     let currentUrl = window.location.href;
     let location = currentUrl.indexOf('reddit.com/');
-    window.location.href = `https://new.${currentUrl.slice(location)}`;
+    if (!window.location.search.includes('?rdt=45218')) {
+        window.location.href = `https://new.${currentUrl.slice(location)}`;
+    }
 })();
