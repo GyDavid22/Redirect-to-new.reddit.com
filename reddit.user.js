@@ -15,7 +15,7 @@
     'use strict';
     let currentUrl = window.location.href;
     let location = currentUrl.indexOf('reddit.com/');
-    if (!(window.location.search.includes('?rdt=') || window.location.pathname == '/media')) {
+    if (!(window.location.search.includes('?rdt=') || window.location.search.includes('&rdt=') || window.location.pathname == '/media')) {
         window.location.href = `https://new.${currentUrl.slice(location)}`;
     }
 })();
