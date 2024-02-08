@@ -8,7 +8,7 @@
 // @match        *://old.reddit.com/*
 // @exclude      *://new.reddit.com/*
 // @grant        none
-// @downloadURL  https://github.com/GyDavid22/Redirect-to-new.reddit.com/releases/latest/download/reddit.user.js
+// @downloadURL  https://github.com/GyDavid22/Redirect-to-new.reddit.com/raw/main/reddit.user.js
 // @run-at document-start
 // ==/UserScript==
 
