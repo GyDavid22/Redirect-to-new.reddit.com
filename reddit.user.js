@@ -5,7 +5,6 @@
 // @author       GyDavid22
 // @match        *://www.reddit.com/*
 // @match        *://reddit.com/*
-// @match        *://old.reddit.com/*
 // @exclude      *://new.reddit.com/*
 // @grant        none
 // @downloadURL  https://github.com/GyDavid22/Redirect-to-new.reddit.com/raw/main/reddit.user.js
