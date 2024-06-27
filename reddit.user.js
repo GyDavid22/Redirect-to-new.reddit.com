@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Redirect to new.reddit.com
-// @version      4
+// @version      5
 // @description  A userscript to restore the previous UI of Reddit by automatically redirecting to new.reddit.com
 // @author       GyDavid22
 // @match        *://www.reddit.com/*
