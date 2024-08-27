@@ -3,5 +3,7 @@ Reddit changed its web UI in late 2023 and made it available for its users gradu
 
 At the moment (february 2024), you can't use new.reddit.com without being logged in.
 
+Edit: It looks like Reddit killed new.reddit.com at the end of august 2024, so this script won't be useful anymore.
+
 # How to use?
 You need a browser extension which allows you to install and run userscripts, for example [Tampermonkey](https://www.tampermonkey.net/). If you have one, simply just [click here](https://github.com/GyDavid22/Redirect-to-new.reddit.com/raw/main/reddit.user.js) to install it.
